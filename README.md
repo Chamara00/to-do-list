@@ -37,13 +37,6 @@ A full-stack To-Do application built with React.js, Node.js, and PostgreSQL, con
 
 2. **Start the application**
    ```bash
-   # For Linux/Mac
-   ./scripts/test.sh
-   
-   # For Windows
-   scripts\test.bat
-   
-   # Or manually
    docker-compose up --build
    ```
 
@@ -110,10 +103,6 @@ CREATE TABLE task (
 ### Running Tests
 
 ```bash
-# All tests (recommended)
-./scripts/test.sh  # Linux/Mac
-scripts\test.bat    # Windows
-
 # Individual component tests
 docker-compose exec backend npm test
 docker-compose exec frontend npm test
